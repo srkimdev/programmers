@@ -32,10 +32,8 @@ def solution(maps):
 
     
     bfs(0, 0)
-    # print(dp[n - 1][m - 1])
+
     if dp[n - 1][m - 1] == INF:
         return -1
     else:
         return dp[n - 1][m - 1]
-
-solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]])
