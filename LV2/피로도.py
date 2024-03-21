@@ -20,5 +20,3 @@ def solution(k, dungeons):
         answer = max(answer, count)
             
     return answer
-
-solution(80, [[80,20],[50,40],[30,10]])
