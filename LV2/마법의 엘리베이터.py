@@ -1,4 +1,3 @@
-#10:30
 def solution(storey):
 
     store = str(storey)
@@ -26,5 +25,3 @@ def solution(storey):
     result += up
 
     return result
-
-solution(55)
