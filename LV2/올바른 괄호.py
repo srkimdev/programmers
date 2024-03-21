@@ -14,5 +14,3 @@ def solution(s):
         return True
     else:
         return False
-    
-print(solution(')'))
