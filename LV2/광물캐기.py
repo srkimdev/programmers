@@ -37,6 +37,6 @@ def solution(picks, minerals):
                 picks[j] -= 1
                 answer += 25 * dia + 5 * iron + stone
                 break
-    print(answer)
+    
+    return answer
 
-solution([0, 1, 1], ["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"])
