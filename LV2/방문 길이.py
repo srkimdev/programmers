@@ -23,4 +23,3 @@ def solution(dirs):
         x, y = nx, ny
 
     return len(foot)
-
